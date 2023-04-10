@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    transition: all .7s;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    background-color: #000;
+}
+
+/*Classes reutilizáveis*/
+.botao-geral {
+    width: 80%;
+    height: 4.5rem;
+    border-radius: 20px;
+    background-color: #00e7f9;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.botao-geral:hover {
+    background-color: #00aab7;
+}    
+
+.cabecalho, .secao-principal, .container-motivos, .secao-mentores, .secao-metodologia
+, .secao-modulos, .secao-planos, .secao-feedback, .secao-perguntas {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}  
+.destaque-cor {
+    color: #00e7f9;
+}
+
+.scroll {
+    overflow-x: auto;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.button-control-right,
+.button-control-left {
+    border-radius: 100%;
+    border: 1px solid #00e7f9;
+    color: #00e7f9;
+    padding: 2rem;
+    background-color: transparent;
+}
+
+.button-control-right:hover,
+.button-control-left:hover {
+    background-color: #00e7f9;
+    color: #000;
+}
+
